@@ -1,7 +1,5 @@
 FROM nvidia/cuda:9.2-devel
 
-MAINTAINER Anthony Tatowicz
-
 RUN mkdir /opt/ethminer/
 WORKDIR /opt/ethminer
 
